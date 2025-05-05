@@ -7,6 +7,7 @@
 
 const localSdkComponentMap = {
   /* map end - DO NOT REMOVE */
+  "WKTAAP_ConstltnLib_BigName" : "WktaapConstltnLibBigName",
 };
 
 export default localSdkComponentMap;
