@@ -18,16 +18,16 @@
 
   "serverConfig": {
     "infinityRestServerUrl_comment": "Full path to Infinity REST server",
-    "infinityRestServerUrl": "https://localhost:1080/prweb",
+    "infinityRestServerUrl": "https://wknzta-waka-dt1.pega.net/prweb",
 
     "appAlias_comment": "appAlias of the application which operators will be accessing (e.g., MediaCo)",
-    "appAlias": "",
+    "appAlias": "MediaCo",
 
     "sdkContentServerUrl_comment": "If specified, the given URL will be used. If left blank, window.location.origin will be used.",
     "sdkContentServerUrl": "",
 
     "appPortal_comment": "If specified, the given appPortal will be loaded. If left blank, the operator's default Portal is used. Ignored for Embedded use",
-    "appPortal": "",
+    "appPortal": "MediaCo",
 
     "appMashupCaseType_comment": "If specified, uses this case type for mashup.  Otherwise, uses the first case type found for the app",
     "appMashupCaseType": "",
@@ -58,8 +58,8 @@
     },
 
     "componentDefaults": {
-      "organization": "YourOrg",
-      "library": "YourComponentLib",
+      "organization": "WKTAAP",
+      "library": "ConstltnLib",
       "version": "0.0.1",
       "type": "",
       "subtype": "",
